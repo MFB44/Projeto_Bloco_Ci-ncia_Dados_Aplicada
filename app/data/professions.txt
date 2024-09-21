@@ -1,0 +1,904 @@
+Assistente de marketing digital
+Analista de redes sociais
+Auxiliar de produção gráfica
+Analista de cibersegurança
+Arquiteto de software
+Arquivista
+Apresentador de programa televisivo
+Ator
+Advogado do consumidor
+Analista de marketing de produto
+Analista de prevenção à fraude
+Analista de big data
+Alfaiate digital
+Auxiliar de farmácia
+Analista de sustentação
+Advogado trabalhista
+Auxiliar de logística
+Analista de comércio exterior
+Assistente pessoal
+Analista de diversidade e inclusão
+Analista ambiental
+Assistente de recursos humanos
+Arquiteto de dados
+Analista de compliance
+Astrônomo
+Analista de PCM
+Analista fundiário
+Agente de proteção e defesa civil
+Analista de produtos
+Analista fiscal
+Agente de crédito
+Auxiliar de departamento pessoal
+Analista de processos
+Analista de kyc
+Assistente de vendas
+Auxiliar operacional
+Atuário
+Apicultor
+Acupunturista
+Analista de recursos humanos
+Analista de IoT
+Angiologista
+Agente de relacionamentos
+Auditor fiscal do trabalho
+Analista de sinistro
+Açougueiro
+Analista de segurança da informação
+Auxiliar de veterinário
+Astronauta
+Advogado empresarial
+Analista de negócios
+Analista de help desk
+Analista de transporte
+Auxiliar de laboratório
+Auditor fiscal
+Auxiliar de embalagem
+Agente de saúde
+Alfaiate
+Auxiliar de limpeza
+Atendente de padaria e confeitaria
+Auxiliar de produção
+Auxiliar de expedição
+Artesão
+Analista de mercado
+Analista de endomarketing
+Armador
+Analista de sistemas
+Analista de comunicação interna
+Analista de departamento pessoal
+Agente de pátio
+Agente da promoção ambiental
+Administrador
+Analista de SEO
+Analista de inbound marketing
+Atendente
+Auxiliar de CPD
+Agente de viagens
+Advogado
+Arquiteto
+Analista de Fusões e Aquisições
+Árbitro de Futebol
+Analista de qualidade
+Analista financeiro
+Advogado de compliance
+Assistente de direção
+Analista de facilities
+Assistente de marketing
+Assistente administrativo
+Auxiliar financeiro
+Administrador de sistemas
+Astrólogo
+Auxiliar de almoxarifado
+Analista de BI (Business Intelligence)
+Analista de Remuneração
+Auxiliar de escritório
+Atleta
+Auxiliar de saúde bucal (ASB)
+Adestrador de cães
+Agricultor
+Almoxarife
+Azulejista
+Analista de e-commerce
+Analista de inteligência de mercado
+Artista visual
+Artista cênico
+Artista plástico
+Analista de suporte
+Assistente jurídico
+Analista de marketing de conteúdo
+Auxiliar de cozinha
+Aspirante do Exército
+Agente administrativo
+Anestesiologista
+Ascensorista
+Assessor parlamentar
+Aquicultor
+Agente de atividades agropecuárias
+Agente comercial
+Advogado de família
+Antropólogo
+Advogado criminalista
+Assessor de imprensa
+Advogado de contencioso tributário
+Analista de CRM
+Analista de planejamento
+Advogado previdenciário
+Analista de payroll
+Analista de inteligência artificial
+Analista de privacidade
+Agente de Combate às Endemias
+Advogado de contencioso cível
+Analista de recrutamento e seleção
+Assistente financeiro
+Analista de marketing digital
+Advogado da união
+Auditor
+Agrônomo
+Auxiliar administrativo
+Artista
+Analista técnico administrativo
+Agente de aeroporto
+Analista administrativo
+Analista técnico de políticas sociais
+Ajudante de serviços gerais
+Analista contábil
+Analista de marketing
+Ambientalista
+Analista de tecnologia da informação
+Analista de infraestrutura
+Analista de PCP
+Analista jurídico
+Armazenista
+Analista de dados
+Arquiteto de soluções
+Agente funerário
+Agente penitenciário
+Assistente social
+Analista de backoffice
+Assistente comercial
+Auxiliar de faturamento
+Analista de desempenho de futebol
+Arqueólogo
+Auxiliar de Loja
+Auxiliar de enfermagem
+Agente de turismo
+Biofísico
+Blaster
+Bibliotecário
+Bancário
+Barbeiro
+Brigadista
+Biomédico
+Biólogo marinho
+Baterista
+Baixista
+Business partner
+Blogueiro
+Bartender
+Barista
+Biotecnologista
+Bailarina
+Booker
+Balconista
+Bombeiro
+Berçarista
+Biólogo
+Bombeiro civil
+Bioquímico
+Control desk
+Cientista
+Copista
+Chefe de cozinha
+Consultor empresarial
+Compositor
+Consultor de investimentos
+Cientista social
+Costureiro
+Cientista político
+Cabo da polícia militar
+Cenógrafo
+Cirurgião plástico
+Coordenador de eventos
+Controller
+Caldeireiro
+Chofer
+CEO
+Cineasta
+Cabeleireiro
+Customer success
+Cirurgião geral
+Cozinheiro
+Comprador
+Consultor financeiro
+Controlador de acesso
+Carpinteiro
+Consultor
+Clínico geral
+Cabo do exército
+Ceramista
+Coordenador de planejamento
+Cumim
+Coordenador de mídias sociais
+Consultor contábil
+Coordenador de relacionamento
+Copeiro
+Coordenador de segurança da informação
+Consultor comercial
+Conselheiro tutelar
+Ciclista profissional
+Contador
+Capelão
+Confeiteiro
+Coreógrafo
+Concierge
+Copywriter
+Cerimonialista
+Consultor de vendas
+Cantor
+Coordenador pedagógico
+Consultor ERP
+Cônsul
+Consultor jurídico
+Controlador de tráfego aéreo
+Coordenador comercial
+Cabo da marinha
+Capitão do exército
+Coronel da polícia militar
+Cardiologista
+Cozinheiro escolar
+Camareira
+Coach
+Caminhoneiro
+Corretor de seguros
+Coordenador administrativo
+Cientista da computação
+Conferente
+Comunicólogo
+Cinegrafista
+Contabilista
+Comissário de bordo
+Cuidador de idosos
+Calceteiro
+Cientista de dados
+Capitão da polícia militar
+Corretor de imóveis
+Carteiro
+Digitador
+Diretor financeiro
+Designer de games
+Desenvolvedor de e-commerce
+Desenvolvedor de aplicativos
+Diretor de sustentabilidade
+DPO (Data protection officer)
+Desenvolvedor full-stack
+Deputado federal
+Diretor de arte
+Diretor de futebol
+Designer gráfico
+Diretor comercial
+Designer de joias
+Diretor de crédito
+Diretor de teatro
+Despachante documentalista
+Desenvolvedor
+Delegado
+DBA (Administrador de Banco de Dados)
+Designer de produtos
+Dublê
+Diretor de mercado de capitais
+Diretor de produção
+Despachante
+Diretor de riscos de mercado
+Diretor de receita
+Designer de iluminação
+Diretor de pesquisa e desenvolvimento
+Diretor de operações
+Designer de moda
+Despachante aduaneiro
+Decorador
+Detetive particular
+Digital influencer
+Designer de conteúdo
+Desenvolvedor de chatbot
+Despachante de trânsito
+Depilador
+Desenvolvedor javascript
+Diretor de tecnologia da informação
+Diretor de suprimentos
+Desenhista
+Diretor de comunicação
+Desembargador
+Diretor de segurança cibernética
+DevOps
+DJ
+Desenhista industrial
+Desenvolvedor de software
+Dermatologista
+Designer digital
+Desenvolvedor RPA
+Dublador
+Designer
+Delegado da polícia federal
+Defensor público
+Diretor de fotografia
+Desenvolvedor front-end
+Desenvolvedor back-end
+Diretor de cinema
+Diagramador
+Diretor Hospitalar
+Designer de interiores
+Diretor escolar
+Dentista
+Diretor executivo
+Diplomata
+Diretor administrativo
+Engenheiro mecatrônico
+Engenheiro de cibersegurança
+Eletricista de autos
+Engenheiro de soldagem
+Extrusor
+Enfermeiro neonatologista
+Estomatologista
+Engenheiro de telecomunicações
+Engenheiro de custos
+Endocrinologista
+Engenheiro têxtil
+Engenheiro eletrônico
+Executivo de vendas
+Empresário
+Engenheiro de materiais
+Engenheiro mecânico
+Eletricista
+Engenheiro de petróleo e gás
+Engenheiro agrimensor
+Escriturário
+Engenheiro submarino
+Engenheiro de minas e energia
+Estilista
+Engenheiro mecânico automotivo
+Engenheiro automotivo
+Engenheiro acústico
+Engenheiro robótico
+Estoquista
+Engenheiro de mobilidade
+Engenheiro ferroviário
+Encadernador
+Empreiteiro
+Engenheiro de energia
+Engenheiro de machine learning
+Especialista em automação predial
+Engenheiro de sistemas
+Embaixador
+Engenheiro químico
+Empacotador
+Estofador
+Especialista em políticas públicas e gestão governamental
+Engenheiro de transportes
+Especialista em SEO
+Engenheiro sanitarista
+Editor de texto
+Engenheiro eletricista
+Especialista em inteligência artificial e machine learning
+Engenheiro de redes de computadores
+Engenheiro de energias renováveis
+Engenheiro de segurança do trabalho
+Enfermeiro obstetra
+Engenheiro de produção
+Engenheiro de som
+Engenheiro de confiabilidade
+Embalador
+Empreendedor
+Estomaterapeuta
+Engenheiro de Incêndio
+Engenheiro eletrotécnico
+Equinocultor
+Ergonomista
+Engenheiro de Tráfego
+Especialista em sucesso do cliente
+Engenheiro ambiental
+Engenheiro da computação
+Engenheiro de estruturas e fundações
+Engenheiro de esg
+Especialista em SEM
+Encanador
+Editor de vídeo
+Especialista em sustentabilidade
+Empregado doméstico
+Engraxate
+Engenheiro de dados
+Engenheiro de nanotecnologia
+Economista
+Escritor
+Engenheiro cartográfico
+Engenheiro de qualidade
+Engenheiro físico
+Educador social
+Engenheiro de prompt
+Especialista em e-commerce
+Engenheiro de pesca
+Engenheiro biomecânico
+Engenheiro industrial
+Engenheiro de controle e automação
+Engenheiro florestal
+Enfermeiro
+Engenheiro metalúrgico
+Engenheiro naval
+Engenheiro clínico
+Engenheiro hídrico
+Engenheiro nuclear
+Executivo de contas
+Engenheiro de bioprocessos
+Engenheiro estrutural
+Engenheiro de operações industriais
+Engenheiro de alimentos
+Engenheiro de inovação
+Engenheiro agrícola
+Especialista em business intelligence
+Especialista em vendas técnicas
+Especialista em transformação digital
+Esteticista
+Epidemiologista
+Engenheiro aeronáutico
+Engenheiro aeroespacial
+Engenheiro civil
+Escrevente
+Enfermeiro sanitarista
+Engenheiro de software
+Enfermeiro do trabalho
+Engenheiro biomédico
+Estatístico
+Engenheiro trainee
+Engenheiro agrônomo
+Funileiro
+Fonoaudiólogo
+Fisiatra
+Fotógrafo
+Faxineiro
+Fisioterapeuta
+Faturista
+Ferramenteiro
+Figurinista
+Filósofo
+Florista
+Fisiologista
+Fisioterapeuta do trabalho
+Ferreiro
+Frentista
+Farmacêutico
+Fuzileiro naval
+Gestor Portuário
+Geofísico
+Ginecologista
+Gestor de Tráfego
+Gestor de pessoas
+Gerente de TI
+Guarda civil
+Gestor empresarial
+Gerente de comunicação
+Gestor de inovação
+Gerente de contas estratégicas
+Gerente de projetos
+Geógrafo
+Gerente de hotel
+Gestor financeiro
+Gestor tributário
+Gestor de tecnologia da informação
+Gerente de auditoria
+Gerente de vendas
+Gerente de planejamento
+Gestor esportivo
+Gerente de tesouraria
+Guitarrista
+Gestor de frota
+Gestor de CRM
+Gestor público
+Gestor de Operações
+Garçom
+Gestor de Obras
+Gestor ambiental
+Gerente de marketing
+Gestor comercial
+Gerente de Relacionamento
+Gerente executivo de ESG
+Gestor de mídias sociais
+Guarda florestal
+Gestor de comunidade
+Gerente de compras
+Gerente de produção
+Gestor de qualidade
+Gerente de banco
+Gerente de Crédito
+Gestor da produção industrial
+Gestor de segurança da informação
+Gerente financeiro
+Gerente de logística
+Geriatra
+Growth hacker
+Gestor de trânsito
+Gerente de departamento pessoal
+Guia de turismo
+Geólogo
+Gastroenterologista
+Gerente de recursos humanos
+Gerente jurídico
+Gerente fiscal
+Gerente de loja
+Gerente administrativo
+Gestor hospitalar
+Gerente comercial
+Gestor escolar
+Gastrônomo
+Gerontólogo
+Hipnoterapeuta
+Historiador
+Hematologista
+Headhunter
+Horticultor
+Hepatologista
+Hostess
+Ilustrador
+Intérprete de libras
+Inspetor de alunos
+Inspetor de equipamentos
+Investigador forense
+Inspetor de qualidade
+Instrutor de voo
+Impressor
+Instrumentador cirúrgico
+Inspetor de soldagem
+Infectologista
+Intérprete
+Investidor Day Trader
+Investigador da polícia civil
+Juiz
+Joalheiro
+Jornalista esportivo
+Jardineiro
+Jogador profissional de e-sports
+Juiz de paz
+Jornalista
+Jovem aprendiz
+Jogador de futebol
+Locutor
+Laminador
+Luthier
+Líder de tecnologia da informação
+Mordomo
+Motoboy
+Mecânico de carro
+Mestre cervejeiro
+Manicure
+Major da Polícia Militar
+Mecânico de máquinas industriais
+Mecânico
+Marmorista
+Maquiadora
+Militar
+Marinheiro
+Mestre de Obras
+Médico geneticista
+Marceneiro
+Musicoterapeuta
+Mergulhador profissional
+Motorista
+Mecânico industrial
+Metalúrgico
+Meteorologista
+Massagista
+Médico nuclear
+Museólogo
+Modelo
+Médico do trabalho
+Médico legista
+Major do exército
+Maître
+Médico
+Mecânico de manutenção
+Maestro
+Motorista de aplicativo
+Motorista de caminhão
+Magarefe
+Massoterapeuta
+Motorista de ônibus
+Neuropsicólogo
+Nail Designer
+Nutricionista
+Nutrólogo
+Neurologista
+Neuropsicopedagogo
+Nefrologista
+Neurocientista
+Oceanógrafo
+Operador de som
+Office boy
+Obstetra
+Ombudsman
+Ortodontista
+Operador de telemarketing
+Odontopediatra
+Operador de máquinas
+Operador de empilhadeira
+Osteopata
+Ortopedista infantil
+Olheiro de futebol
+Operador de injetora
+Operador de ferrovia
+Oficial de justiça
+Optometrista
+Oncologista
+Ourives
+Otorrinolaringologista
+Orientador social
+Operador de guindaste
+Ortopedista
+Oftalmologista
+Operador de caixa
+Professor do ensino médio
+Psicoterapeuta
+Primeiro-sargento da Polícia Militar
+Psicólogo do esporte
+Piloto de drone
+Profissional de relações internacionais
+Perfumista
+Pesquisador
+Personal stylist
+Polidor de vidros
+Policial rodoviário federal
+Psiquiatra
+Profissional de processos gerenciais
+Paleontólogo
+Profissional de eventos
+Perito contábil
+Psicólogo organizacional
+Presidente da República
+Pizzaiolo
+Profissional de educação física
+Produtor de conteúdo
+Personal trainer
+Perfusionista
+Pedagogo social
+Produtor de vídeo
+Programador multimídia
+Professor de educação física
+Protético dentário
+Psicomotricista
+Publicitário
+Profissional de relações públicas
+Paisagista
+Pecuarista
+Product manager
+Pintor
+Produtor cultural
+Projetista
+Projetista mecânico
+Professor de psicologia
+Prompter
+Pedagogo
+Product growth manager
+Produtor musical
+Pedreiro
+Professor de educação infantil
+Palestrante
+Palhaço
+Pedicure
+Parteira
+Psicanalista
+Perito judicial
+Padeiro
+Perito trabalhista
+Patologista
+Pediatra neonatologista
+Personal chef
+Pedagogo hospitalar
+Psicólogo
+Policial civil
+Professor de história
+Professor de inglês
+Podólogo
+Preparador físico
+Profissional de facilities
+Promotor de justiça
+Parapsicólogo
+Procurador de justiça
+Psicólogo do trânsito
+Piloto de avião
+Policial judicial
+Profissional em letras
+Professor de dança
+Profissional de música
+Product owner
+Profissional de dança
+Programador
+Professor de engenharia civil
+Profissional de linguística
+Psicólogo social
+Pescador
+Profissional de gestão financeira
+Professor de matemática
+Profissional de matemática
+Perito criminal
+Primeiro-tenente do exército
+Profissional de comércio exterior
+Primeiro-tenente da Polícia Militar
+Primeiro-sargento do Exército
+Primeiro-sargento da Marinha
+Pneumologista
+Percussionista
+Proctologista
+Profissional de logística
+Professor
+Psicólogo escolar
+Psicólogo comportamental
+Professor de nutrição
+Pediatra
+Professor de artes
+Programador de sistemas de informação
+Programador de Internet
+Porteiro
+Profissional de física
+Promotor de vendas
+Professor de fisioterapia
+Papiloscopista
+Professor de música
+Psicólogo clínico
+Policial militar
+Psicopedagogo
+Químico
+Quiroprata
+Quiropraxista
+Roteirista
+Redator
+Reumatologista
+Redator SEO
+Repórter de rádio e televisão
+Reitor
+Recepcionista Hospitalar
+Radialista
+Radiologista
+Revisor de texto
+Repositor
+Roteirizador
+Repórter
+Relojoeiro
+Repositor de mercadorias
+Rigger
+Representante comercial
+Recepcionista
+Silvicultor
+Sonoplasta
+Segundo-sargento da Marinha
+Soldador
+Subtenente da Polícia Militar
+Supervisor
+Segundo-tenente da Polícia Militar
+Sommelier
+Serralheiro
+Socorrista
+Supervisor de produção
+Secretária
+Supervisor administrativo
+Supervisor de operações logísticas
+Supervisor de vendas
+Secretário municipal
+Sociólogo
+Steward
+SDR (Representante de Desenvolvimento de Vendas)
+Segundo-sargento do Exército
+Secretário Escolar
+Supervisor de transporte
+Social media
+Servente
+Suboficial da Marinha
+Soldado da polícia militar
+Secretário executivo
+Sinaleiro
+Segundo-sargento da Polícia Militar
+Sous chef
+Soldado do exército
+Sexologista
+Senador
+Segundo-tenente do Exército
+Streamer
+Sismólogo
+Supervisor escolar
+Subtenente do Exército
+Taifeiro-mor da Marinha
+Técnico em edificações
+Taifeiro primeira classe da Marinha
+Tecnólogo em radiologia
+Tabelião
+Técnico em segurança do trabalho
+Técnico em mecatrônica
+Técnico de iluminação
+Técnico em logística
+Técnico em mineração
+Técnico em desenvolvimento de sistemas
+Técnico em agropecuária
+Técnico de som
+Terceiro-sargento da marinha
+Técnico em assuntos educacionais
+Telhadista
+Técnico em eletrotécnica
+Terapeuta familiar
+Técnico em indigenismo
+Tatuador
+Tenente-coronel da Polícia Militar
+Técnico em informações geográficas e estatísticas
+Tesoureiro
+Técnico de enfermagem
+Técnico em radiologia
+Técnico em mecânica
+Tecladista
+Tintureiro
+Técnico em automação industrial
+Técnico em farmácia
+Técnico em óptica
+Técnico em química
+Turismólogo
+Técnico eletromecânico
+Torneiro mecânico
+Taquígrafo
+Técnico em recursos humanos
+Técnico em nutrição e dietética
+Tecnologista
+Técnico em contabilidade
+Treinador de futebol
+Terceiro-sargento do Exército
+Técnico de suporte
+Técnico em estética
+Tecnólogo em produção sucroalcooleira
+Técnico em prótese dentária
+Técnico em marketing
+Técnico em administração
+Técnico em mecânica industrial
+Trader
+Terapeuta ocupacional
+Técnico em meio ambiente
+Técnico em refrigeração e climatização
+Técnico em Geologia
+Tech lead
+Terapeuta holístico
+Técnico em saúde bucal
+Técnico em agrimensura
+Técnico em secretariado
+Técnico em eletromecânica
+Técnico em análises clínicas
+Terapeuta
+Técnico em qualidade
+Técnico em redes de computadores
+Tradutor
+Terceiro-sargento da Polícia Militar
+Técnico de laboratório
+Técnico em secretaria escolar
+Técnico em eletrônica
+Técnico em Transações Imobiliárias
+Tech recruiter
+Tecnólogo em segurança pública
+Técnico em eletroeletrônica
+Técnico em veterinária
+Topógrafo
+Técnico em informática
+Taifeiro do exército
+Telefonista
+Técnico em design de interiores
+Teólogo
+UI designer
+Urologista
+UX designer
+UX Writer
+Vendedor externo
+Vendedor interno
+Viticultor
+Vereador
+Vidraceiro
+Viveirista
+Violonista
+Vigia
+Vendedor
+Veterinário
+Vigilante
+Web designer
+Webmaster
+Zelador
+Zootecnista
