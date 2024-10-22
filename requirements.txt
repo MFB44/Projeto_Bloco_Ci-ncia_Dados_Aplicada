@@ -2,3 +2,7 @@ streamlit == 1.37.1
 pandas==2.2.2
 beautifulsoup4==4.12.3
 requests==2.32.3
+selenium==4.25.0
+pydantic==2.9.2
+chromedriver-py==129.0.6668.100
+fastapi==0.115.2

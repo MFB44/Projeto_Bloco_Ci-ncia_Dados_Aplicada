@@ -2,14 +2,13 @@ import streamlit as st
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup as bs
-import re
 
 st.set_page_config(page_title='FieldGuide', page_icon='📚', layout='centered', initial_sidebar_state='auto')
 
 st.sidebar.header("Bem-vindo ao FieldGuide!")
 st.sidebar.image("https://i.imgur.com/mlvt8or.png", use_column_width=True)
 st.sidebar.write("### Selecione a página desejada:")
-page = st.sidebar.selectbox("", ["Introdução (TP1)","Dados", "BeautifulSoup",])
+page = st.sidebar.selectbox("", ["Introdução (TP1)","Dados (TP2)", "BeautifulSoup (TP2)", "TP3 - Selenium, FastAPI, LLM"])
 
 @st.cache_data
 def read_csv(file):
@@ -27,8 +26,8 @@ if page == "Introdução (TP1)":
     st.write("Este projeto procura ajudar principalmente alunos do Ensino Médio, que assim como eu, estavam confusos com seu futuro e ficaram dias procurando informações sobre suas possíveis carreiras futuras.")
     st.write("Nele você entra e pesquisa por uma proffisão e encontra tudo que você pode precisar para trabalhar na área.")
 
-    st.image(r"Projeto_Bloco_Ciência_Dados_Aplicada\app\data\Beige Modern Chic Business Model Canvas Brainstorm.png")
-    st.image(r"Projeto_Bloco_Ciência_Dados_Aplicada\app\data\Project Charter - Projeto Bloco Ciência de Dados Aplicada-1.png")
+    st.image(r"app\data\Beige Modern Chic Business Model Canvas Brainstorm.png")
+    st.image(r"app\data\Project Charter - Projeto Bloco Ciência de Dados Aplicada-1.png")
 
     st.markdown("### Links:")
     st.markdown("#### Inspiração Principal")
@@ -39,17 +38,18 @@ if page == "Introdução (TP1)":
     st.write("[API Profissões](https://api.sienge.com.br/docs/html-files/professions-v1.html#/)")
     st.write("[Tabela de Pontos Sisu](https://www.guiadacarreira.com.br/blog/tabela-de-pontos-do-enem-para-cada-curso)")
     st.write("[Catho](https://www.catho.com.br/vagas/)")
+    st.write("[Vagas.com](https://www.vagas.com.br)")
 
-    file = (r'Projeto_Bloco_Ciência_Dados_Aplicada\app\data\relatorio_consulta_publica_avancada_curso_25_08_2024_00_05_33.csv')
+    file = (r'app\data\relatorio_consulta_publica_avancada_curso_25_08_2024_00_05_33.csv')
     data = read_csv(file)
 
     st.markdown("### Exemplo de tabela de dados:")
     st.write("O exemplo a seguir utiliza uma tabela vinda do site citado acima (Cadastro Nacional de Cursos Superiores), ela mostra apenas cursos de 'Dados' e os dados não foram tratados, portanto há diversas colunas que não serão utilizadas no projeto final. Eu pretendo ampliar estes dados para todo o Brasil e utilizar APIs, porém ainda não consegui fazer funcionar mas estou trabalhando em me capacitar para tal.")
     dataframe = st.dataframe(data)
 
-if page == "Dados":
+if page == "Dados (TP2)":
     st.title("Dados Relatório Consulta Pública Avançada Curso")
-    file = (r'Projeto_Bloco_Ciência_Dados_Aplicada\app\data\relatorio_consulta_publica_avancada_curso_25_08_2024_00_05_33.csv')
+    file = (r'app\data\relatorio_consulta_publica_avancada_curso_25_08_2024_00_05_33.csv')
     data = read_csv(file)
     dataframe = st.dataframe(data)
     if 'complete' not in st.session_state:
@@ -98,7 +98,7 @@ if page == "Dados":
             if 'uploaded' not in st.session_state:
                 st.session_state['uploaded'] = data_u
 
-if page == "BeautifulSoup":
+if page == "BeautifulSoup (TP2)":
     st.title("Aqui você pode encontrar todas as profissões disponíveis no site Quero Bolsa, organizadas por letra.")
     HEADER = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
@@ -135,6 +135,22 @@ if page == "BeautifulSoup":
     profs_at = profs_at
     if 'professions' not in st.session_state:
         st.session_state['professions'] = profs_at
-    with open(r'Projeto_Bloco_Ciência_Dados_Aplicada\app\data\professions.txt','w') as f:
+    with open(r'app\data\professions.txt','w') as f:
         for item in profs_at:
             f.write(item + '\n')
+            
+if page == "TP3 - Selenium, FastAPI, LLM":
+    st.title("TP3 - Selenium, FastAPI, LLM")
+    st.write("Esta parte do trabalho não é tão grande quanto as últimas. Não obtive êxito após testar em alguns sites diferentes, porém quero demonstrar que tenho interesse em utilizá-lo para coletar dados de sites como 'vagas.com.br' e 'catho.com.br'.")
+    st.write("Com isso eu poderia coletar dados de vagas de emprego e salários, por exemplo, e disponibilizar para o usuário juntamente dos cursos. Com isto, já correlaciono ao uso de IA, possivelmente fazendo textos que explicam detalhes e como se relacionam cada vaga com certos cursos.")
+    st.write("Com o conhecimento que ganharei neste trimestre e com o que já aprendi, pretendo fazer um projeto mais robusto e completo, com mais funcionalidades e informações.")
+    st.write("Sobre o FastAPI, eu não consegui implementar nada ainda, mas pretendo utilizá-lo para criar uma API que disponibilize todos dados que coletarei.")
+    st.write("Esperava fazer mais nesta etapa mas apenas tive uma aula sobre as funcionalidades da FastAPI e não pratiquei com Selenium mas a proposta de negócio está mais clara para mim e estou mais confiante para fazer um projeto mais completo.")
+    st.write("Novas pastas foram inclusas ('FastAPI' e 'Selenium' na pasta 'services') com os protótipos de código que eu pretendo utilizar.")
+    st.write("Exemplos de como demonstrar dados no projeto tirados do Mapa VAGAS de Carreiras:")
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.image('https://i.imgur.com/Y5wA5nY.png')
+    with col2:
+        st.image('https://i.imgur.com/x0q8RvQ.png')

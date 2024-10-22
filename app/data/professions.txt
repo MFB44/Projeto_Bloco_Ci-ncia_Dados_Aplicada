@@ -3,7 +3,6 @@ Analista de redes sociais
 Auxiliar de produção gráfica
 Analista de cibersegurança
 Arquiteto de software
-Arquivista
 Apresentador de programa televisivo
 Ator
 Advogado do consumidor
@@ -14,15 +13,14 @@ Alfaiate digital
 Auxiliar de farmácia
 Analista de sustentação
 Advogado trabalhista
-Auxiliar de logística
 Analista de comércio exterior
 Assistente pessoal
 Analista de diversidade e inclusão
 Analista ambiental
 Assistente de recursos humanos
 Arquiteto de dados
+Aspirante do exército
 Analista de compliance
-Astrônomo
 Analista de PCM
 Analista fundiário
 Agente de proteção e defesa civil
@@ -30,7 +28,6 @@ Analista de produtos
 Analista fiscal
 Agente de crédito
 Auxiliar de departamento pessoal
-Analista de processos
 Analista de kyc
 Assistente de vendas
 Auxiliar operacional
@@ -46,15 +43,14 @@ Analista de sinistro
 Açougueiro
 Analista de segurança da informação
 Auxiliar de veterinário
-Astronauta
+Auxiliar de laboratório
 Advogado empresarial
 Analista de negócios
 Analista de help desk
 Analista de transporte
-Auxiliar de laboratório
+Astrônomo
 Auditor fiscal
 Auxiliar de embalagem
-Agente de saúde
 Alfaiate
 Auxiliar de limpeza
 Atendente de padaria e confeitaria
@@ -75,12 +71,10 @@ Analista de inbound marketing
 Atendente
 Auxiliar de CPD
 Agente de viagens
-Advogado
 Arquiteto
 Analista de Fusões e Aquisições
 Árbitro de Futebol
 Analista de qualidade
-Analista financeiro
 Advogado de compliance
 Assistente de direção
 Analista de facilities
@@ -89,26 +83,25 @@ Assistente administrativo
 Auxiliar financeiro
 Administrador de sistemas
 Astrólogo
+Assessor de imprensa
 Auxiliar de almoxarifado
-Analista de BI (Business Intelligence)
 Analista de Remuneração
 Auxiliar de escritório
 Atleta
 Auxiliar de saúde bucal (ASB)
 Adestrador de cães
-Agricultor
 Almoxarife
 Azulejista
 Analista de e-commerce
 Analista de inteligência de mercado
-Artista visual
 Artista cênico
 Artista plástico
 Analista de suporte
+Artista visual
 Assistente jurídico
 Analista de marketing de conteúdo
 Auxiliar de cozinha
-Aspirante do Exército
+Agente de saúde
 Agente administrativo
 Anestesiologista
 Ascensorista
@@ -118,16 +111,16 @@ Agente de atividades agropecuárias
 Agente comercial
 Advogado de família
 Antropólogo
-Advogado criminalista
-Assessor de imprensa
+Arquivista
+Auxiliar de logística
 Advogado de contencioso tributário
 Analista de CRM
 Analista de planejamento
 Advogado previdenciário
 Analista de payroll
 Analista de inteligência artificial
+Astronauta
 Analista de privacidade
-Agente de Combate às Endemias
 Advogado de contencioso cível
 Analista de recrutamento e seleção
 Assistente financeiro
@@ -137,9 +130,9 @@ Auditor
 Agrônomo
 Auxiliar administrativo
 Artista
+Analista administrativo
 Analista técnico administrativo
 Agente de aeroporto
-Analista administrativo
 Analista técnico de políticas sociais
 Ajudante de serviços gerais
 Analista contábil
@@ -154,6 +147,7 @@ Analista de dados
 Arquiteto de soluções
 Agente funerário
 Agente penitenciário
+Analista financeiro
 Assistente social
 Analista de backoffice
 Assistente comercial
@@ -161,16 +155,21 @@ Auxiliar de faturamento
 Analista de desempenho de futebol
 Arqueólogo
 Auxiliar de Loja
+Agente de Combate às Endemias
 Auxiliar de enfermagem
 Agente de turismo
+Advogado
+Agricultor
+Advogado criminalista
+Analista de BI (Business Intelligence)
+Analista de processos
 Biofísico
 Blaster
 Bibliotecário
 Bancário
 Barbeiro
+Balconista
 Brigadista
-Biomédico
-Biólogo marinho
 Baterista
 Baixista
 Business partner
@@ -180,13 +179,15 @@ Barista
 Biotecnologista
 Bailarina
 Booker
-Balconista
 Bombeiro
 Berçarista
 Biólogo
 Bombeiro civil
 Bioquímico
+Biólogo marinho
+Biomédico
 Control desk
+Cabo do exército
 Cientista
 Copista
 Chefe de cozinha
@@ -196,7 +197,6 @@ Consultor de investimentos
 Cientista social
 Costureiro
 Cientista político
-Cabo da polícia militar
 Cenógrafo
 Cirurgião plástico
 Coordenador de eventos
@@ -208,63 +208,66 @@ Cineasta
 Cabeleireiro
 Customer success
 Cirurgião geral
-Cozinheiro
 Comprador
+Correspondente de guerra
 Consultor financeiro
 Controlador de acesso
+Corretor de seguros
 Carpinteiro
+Cozinheiro
 Consultor
 Clínico geral
-Cabo do exército
 Ceramista
 Coordenador de planejamento
 Cumim
 Coordenador de mídias sociais
 Consultor contábil
+Cabo da polícia militar
 Coordenador de relacionamento
 Copeiro
 Coordenador de segurança da informação
+Capelão
 Consultor comercial
+Controlador de tráfego aéreo
+Contador
 Conselheiro tutelar
 Ciclista profissional
-Contador
-Capelão
+Coronel da polícia militar
 Confeiteiro
 Coreógrafo
 Concierge
 Copywriter
 Cerimonialista
 Consultor de vendas
-Cantor
 Coordenador pedagógico
 Consultor ERP
 Cônsul
 Consultor jurídico
-Controlador de tráfego aéreo
+Comentarista esportivo
 Coordenador comercial
 Cabo da marinha
 Capitão do exército
-Coronel da polícia militar
 Cardiologista
 Cozinheiro escolar
 Camareira
 Coach
+Chapeiro
+Conferente
 Caminhoneiro
-Corretor de seguros
 Coordenador administrativo
 Cientista da computação
-Conferente
 Comunicólogo
+Cantor
 Cinegrafista
-Contabilista
 Comissário de bordo
 Cuidador de idosos
 Calceteiro
+Contabilista
 Cientista de dados
 Capitão da polícia militar
 Corretor de imóveis
 Carteiro
-Digitador
+Crítico de cinema
 Diretor financeiro
 Designer de games
 Desenvolvedor de e-commerce
@@ -275,51 +278,49 @@ Desenvolvedor full-stack
 Deputado federal
 Diretor de arte
 Diretor de futebol
-Designer gráfico
-Diretor comercial
 Designer de joias
+Diretor comercial
 Diretor de crédito
 Diretor de teatro
 Despachante documentalista
-Desenvolvedor
 Delegado
+Designer de moda
 DBA (Administrador de Banco de Dados)
-Designer de produtos
-Dublê
+Delegado da polícia federal
 Diretor de mercado de capitais
 Diretor de produção
 Despachante
 Diretor de riscos de mercado
 Diretor de receita
+Dublê
 Designer de iluminação
 Diretor de pesquisa e desenvolvimento
 Diretor de operações
-Designer de moda
 Despachante aduaneiro
 Decorador
 Detetive particular
 Digital influencer
 Designer de conteúdo
+Desenvolvedor
 Desenvolvedor de chatbot
 Despachante de trânsito
 Depilador
 Desenvolvedor javascript
 Diretor de tecnologia da informação
 Diretor de suprimentos
+Designer de interiores
 Desenhista
 Diretor de comunicação
 Desembargador
 Diretor de segurança cibernética
-DevOps
 DJ
 Desenhista industrial
+Designer gráfico
 Desenvolvedor de software
 Dermatologista
 Designer digital
 Desenvolvedor RPA
-Dublador
 Designer
-Delegado da polícia federal
 Defensor público
 Diretor de fotografia
 Desenvolvedor front-end
@@ -327,48 +328,50 @@ Desenvolvedor back-end
 Diretor de cinema
 Diagramador
 Diretor Hospitalar
-Designer de interiores
 Diretor escolar
-Dentista
+DevOps
 Diretor executivo
 Diplomata
 Diretor administrativo
+Designer de produtos
+Dentista
+Digitador
+Dublador
+Dedetizador
 Engenheiro mecatrônico
 Engenheiro de cibersegurança
 Eletricista de autos
 Engenheiro de soldagem
 Extrusor
-Enfermeiro neonatologista
 Estomatologista
 Engenheiro de telecomunicações
-Engenheiro de custos
+Enfermeiro neonatologista
 Endocrinologista
+Engenheiro de custos
 Engenheiro têxtil
 Engenheiro eletrônico
 Executivo de vendas
 Empresário
 Engenheiro de materiais
-Engenheiro mecânico
 Eletricista
 Engenheiro de petróleo e gás
 Engenheiro agrimensor
-Escriturário
 Engenheiro submarino
-Engenheiro de minas e energia
-Estilista
+Escriturário
 Engenheiro mecânico automotivo
 Engenheiro automotivo
 Engenheiro acústico
-Engenheiro robótico
 Estoquista
 Engenheiro de mobilidade
 Engenheiro ferroviário
 Encadernador
+Engenheiro da computação
 Empreiteiro
 Engenheiro de energia
 Engenheiro de machine learning
 Especialista em automação predial
 Engenheiro de sistemas
+Estilista
 Embaixador
 Engenheiro químico
 Empacotador
@@ -378,17 +381,16 @@ Engenheiro de transportes
 Especialista em SEO
 Engenheiro sanitarista
 Editor de texto
-Engenheiro eletricista
 Especialista em inteligência artificial e machine learning
 Engenheiro de redes de computadores
 Engenheiro de energias renováveis
-Engenheiro de segurança do trabalho
 Enfermeiro obstetra
 Engenheiro de produção
-Engenheiro de som
+Engenheiro de segurança do trabalho
 Engenheiro de confiabilidade
 Embalador
 Empreendedor
+Engenheiro ambiental
 Estomaterapeuta
 Engenheiro de Incêndio
 Engenheiro eletrotécnico
@@ -396,31 +398,30 @@ Equinocultor
 Ergonomista
 Engenheiro de Tráfego
 Especialista em sucesso do cliente
-Engenheiro ambiental
-Engenheiro da computação
 Engenheiro de estruturas e fundações
+Engenheiro de dados
 Engenheiro de esg
 Especialista em SEM
 Encanador
 Editor de vídeo
+Engenheiro de som
 Especialista em sustentabilidade
 Empregado doméstico
 Engraxate
-Engenheiro de dados
 Engenheiro de nanotecnologia
 Economista
 Escritor
 Engenheiro cartográfico
 Engenheiro de qualidade
 Engenheiro físico
-Educador social
+Engenheiro eletricista
+Engenheiro robótico
 Engenheiro de prompt
 Especialista em e-commerce
 Engenheiro de pesca
 Engenheiro biomecânico
 Engenheiro industrial
 Engenheiro de controle e automação
-Engenheiro florestal
 Enfermeiro
 Engenheiro metalúrgico
 Engenheiro naval
@@ -441,7 +442,6 @@ Esteticista
 Epidemiologista
 Engenheiro aeronáutico
 Engenheiro aeroespacial
-Engenheiro civil
 Escrevente
 Enfermeiro sanitarista
 Engenheiro de software
@@ -449,9 +449,14 @@ Enfermeiro do trabalho
 Engenheiro biomédico
 Estatístico
 Engenheiro trainee
+Engenheiro florestal
+Engenheiro de minas e energia
 Engenheiro agrônomo
+Educador social
+Engenheiro mecânico
+Engenheiro civil
+Fiscal de loja
 Funileiro
-Fonoaudiólogo
 Fisiatra
 Fotógrafo
 Faxineiro
@@ -465,12 +470,13 @@ Fisiologista
 Fisioterapeuta do trabalho
 Ferreiro
 Frentista
-Farmacêutico
 Fuzileiro naval
+Farmacêutico
+Fonoaudiólogo
 Gestor Portuário
 Geofísico
 Ginecologista
-Gestor de Tráfego
+Gestor de tráfego
 Gestor de pessoas
 Gerente de TI
 Guarda civil
@@ -478,12 +484,11 @@ Gestor empresarial
 Gerente de comunicação
 Gestor de inovação
 Gerente de contas estratégicas
-Gerente de projetos
 Geógrafo
 Gerente de hotel
+Gestor de tecnologia da informação
 Gestor financeiro
 Gestor tributário
-Gestor de tecnologia da informação
 Gerente de auditoria
 Gerente de vendas
 Gerente de planejamento
@@ -492,11 +497,11 @@ Gerente de tesouraria
 Guitarrista
 Gestor de frota
 Gestor de CRM
+Gerente de projetos
 Gestor público
 Gestor de Operações
 Garçom
 Gestor de Obras
-Gestor ambiental
 Gerente de marketing
 Gestor comercial
 Gerente de Relacionamento
@@ -506,7 +511,7 @@ Guarda florestal
 Gestor de comunidade
 Gerente de compras
 Gerente de produção
-Gestor de qualidade
+Gestor ambiental
 Gerente de banco
 Gerente de Crédito
 Gestor da produção industrial
@@ -530,19 +535,19 @@ Gerente comercial
 Gestor escolar
 Gastrônomo
 Gerontólogo
+Gestor de qualidade
 Hipnoterapeuta
-Historiador
 Hematologista
+Historiador
 Headhunter
 Horticultor
 Hepatologista
 Hostess
 Ilustrador
-Intérprete de libras
-Inspetor de alunos
+Instrutor de autoescola
+Inspetor de qualidade
 Inspetor de equipamentos
 Investigador forense
-Inspetor de qualidade
 Instrutor de voo
 Impressor
 Instrumentador cirúrgico
@@ -551,6 +556,8 @@ Infectologista
 Intérprete
 Investidor Day Trader
 Investigador da polícia civil
+Intérprete de libras
+Inspetor de alunos
 Juiz
 Joalheiro
 Jornalista esportivo
@@ -566,17 +573,15 @@ Luthier
 Líder de tecnologia da informação
 Mordomo
 Motoboy
-Mecânico de carro
 Mestre cervejeiro
 Manicure
 Major da Polícia Militar
 Mecânico de máquinas industriais
 Mecânico
+Mesário
 Marmorista
-Maquiadora
-Militar
 Marinheiro
-Mestre de Obras
+Maquiadora
 Médico geneticista
 Marceneiro
 Musicoterapeuta
@@ -593,29 +598,35 @@ Médico do trabalho
 Médico legista
 Major do exército
 Maître
+Mecânico de carro
 Médico
 Mecânico de manutenção
+Moleiro
+Montador
 Maestro
 Motorista de aplicativo
 Motorista de caminhão
 Magarefe
 Massoterapeuta
 Motorista de ônibus
-Neuropsicólogo
-Nail Designer
+Mestre de Obras
+Militar
+Merendeira
+Neuropsicopedagogo
 Nutricionista
 Nutrólogo
 Neurologista
-Neuropsicopedagogo
+Nail Designer
 Nefrologista
 Neurocientista
+Neuropsicólogo
 Oceanógrafo
 Operador de som
+Operador de telemarketing
 Office boy
 Obstetra
 Ombudsman
 Ortodontista
-Operador de telemarketing
 Odontopediatra
 Operador de máquinas
 Operador de empilhadeira
@@ -634,18 +645,17 @@ Operador de guindaste
 Ortopedista
 Oftalmologista
 Operador de caixa
+Operador de computador
 Professor do ensino médio
-Psicoterapeuta
+Psiquiatra
 Primeiro-sargento da Polícia Militar
 Psicólogo do esporte
 Piloto de drone
 Profissional de relações internacionais
-Perfumista
 Pesquisador
-Personal stylist
+Prefeito
 Polidor de vidros
 Policial rodoviário federal
-Psiquiatra
 Profissional de processos gerenciais
 Paleontólogo
 Profissional de eventos
@@ -655,7 +665,6 @@ Presidente da República
 Pizzaiolo
 Profissional de educação física
 Produtor de conteúdo
-Personal trainer
 Perfusionista
 Pedagogo social
 Produtor de vídeo
@@ -691,17 +700,15 @@ Patologista
 Pediatra neonatologista
 Personal chef
 Pedagogo hospitalar
-Psicólogo
 Policial civil
 Professor de história
 Professor de inglês
 Podólogo
 Preparador físico
 Profissional de facilities
-Promotor de justiça
 Parapsicólogo
-Procurador de justiça
 Psicólogo do trânsito
+Profissional de física
 Piloto de avião
 Policial judicial
 Profissional em letras
@@ -718,6 +725,7 @@ Profissional de gestão financeira
 Professor de matemática
 Profissional de matemática
 Perito criminal
+Psicólogo
 Primeiro-tenente do exército
 Profissional de comércio exterior
 Primeiro-tenente da Polícia Militar
@@ -726,7 +734,6 @@ Primeiro-sargento da Marinha
 Pneumologista
 Percussionista
 Proctologista
-Profissional de logística
 Professor
 Psicólogo escolar
 Psicólogo comportamental
@@ -736,14 +743,20 @@ Professor de artes
 Programador de sistemas de informação
 Programador de Internet
 Porteiro
-Profissional de física
 Promotor de vendas
+Perfumista
+Promotor de justiça
 Professor de fisioterapia
+Profissional de logística
 Papiloscopista
 Professor de música
 Psicólogo clínico
 Policial militar
 Psicopedagogo
+Psicoterapeuta
+Personal trainer
+Procurador de justiça
+Personal stylist
 Químico
 Quiroprata
 Quiropraxista
@@ -756,6 +769,7 @@ Reitor
 Recepcionista Hospitalar
 Radialista
 Radiologista
+Representante comercial
 Revisor de texto
 Repositor
 Roteirizador
@@ -763,7 +777,6 @@ Repórter
 Relojoeiro
 Repositor de mercadorias
 Rigger
-Representante comercial
 Recepcionista
 Silvicultor
 Sonoplasta
@@ -772,9 +785,9 @@ Soldador
 Subtenente da Polícia Militar
 Supervisor
 Segundo-tenente da Polícia Militar
+Sexologista
 Sommelier
 Serralheiro
-Socorrista
 Supervisor de produção
 Secretária
 Supervisor administrativo
@@ -782,6 +795,7 @@ Supervisor de operações logísticas
 Supervisor de vendas
 Secretário municipal
 Sociólogo
+Suplente de vereador
 Steward
 SDR (Representante de Desenvolvimento de Vendas)
 Segundo-sargento do Exército
@@ -796,20 +810,18 @@ Sinaleiro
 Segundo-sargento da Polícia Militar
 Sous chef
 Soldado do exército
-Sexologista
 Senador
 Segundo-tenente do Exército
 Streamer
 Sismólogo
 Supervisor escolar
 Subtenente do Exército
+Socorrista
 Taifeiro-mor da Marinha
 Técnico em edificações
 Taifeiro primeira classe da Marinha
 Tecnólogo em radiologia
-Tabelião
 Técnico em segurança do trabalho
-Técnico em mecatrônica
 Técnico de iluminação
 Técnico em logística
 Técnico em mineração
@@ -832,18 +844,18 @@ Técnico em mecânica
 Tecladista
 Tintureiro
 Técnico em automação industrial
+Teólogo
 Técnico em farmácia
 Técnico em óptica
 Técnico em química
 Turismólogo
-Técnico eletromecânico
-Torneiro mecânico
 Taquígrafo
 Técnico em recursos humanos
 Técnico em nutrição e dietética
 Tecnologista
 Técnico em contabilidade
 Treinador de futebol
+Técnico em mecatrônica
 Terceiro-sargento do Exército
 Técnico de suporte
 Técnico em estética
@@ -852,7 +864,6 @@ Técnico em prótese dentária
 Técnico em marketing
 Técnico em administração
 Técnico em mecânica industrial
-Trader
 Terapeuta ocupacional
 Técnico em meio ambiente
 Técnico em refrigeração e climatização
@@ -868,7 +879,6 @@ Terapeuta
 Técnico em qualidade
 Técnico em redes de computadores
 Tradutor
-Terceiro-sargento da Polícia Militar
 Técnico de laboratório
 Técnico em secretaria escolar
 Técnico em eletrônica
@@ -882,23 +892,14 @@ Técnico em informática
 Taifeiro do exército
 Telefonista
 Técnico em design de interiores
-Teólogo
+Tabelião
+Terceiro-sargento da Polícia Militar
+Técnico eletromecânico
+Torneiro mecânico
+Trader
 UI designer
 Urologista
 UX designer
 UX Writer
 Vendedor externo
 Vendedor interno
-Viticultor
-Vereador
-Vidraceiro
-Viveirista
-Violonista
-Vigia
-Vendedor
-Veterinário
-Vigilante
-Web designer
-Webmaster
-Zelador
-Zootecnista
