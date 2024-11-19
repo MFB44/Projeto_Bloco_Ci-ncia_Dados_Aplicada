@@ -6,3 +6,6 @@ selenium==4.25.0
 pydantic==2.9.2
 chromedriver-py==129.0.6668.100
 fastapi==0.115.2
+uvicorn==0.32.0
+transformers==4.46.3
+torch==2.5.1
