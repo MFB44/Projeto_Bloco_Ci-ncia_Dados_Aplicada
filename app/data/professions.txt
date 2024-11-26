@@ -133,9 +133,9 @@ Antropólogo
 Agrônomo
 Auxiliar administrativo
 Artista
-Analista administrativo
 Analista técnico administrativo
 Agente de aeroporto
+Analista administrativo
 Analista técnico de políticas sociais
 Ajudante de serviços gerais
 Analista contábil
@@ -276,6 +276,7 @@ Comissário de bordo
 Diretor financeiro
 Designer de games
 Desenvolvedor de e-commerce
+Designer de interiores
 Desenvolvedor de aplicativos
 Diretor de sustentabilidade
 DPO (Data protection officer)
@@ -313,16 +314,14 @@ Depilador
 Desenvolvedor javascript
 Diretor de tecnologia da informação
 Diretor de suprimentos
-Designer de interiores
 Desenhista
 Diretor de comunicação
 Desembargador
 Diretor de segurança cibernética
 DJ
 Desenhista industrial
-Designer gráfico
-Desenvolvedor de software
 Dentista
+Desenvolvedor de software
 Dermatologista
 Designer digital
 Desenvolvedor RPA
@@ -343,11 +342,13 @@ Digitador
 Dublador
 Dedetizador
 Diretor escolar
+Designer gráfico
 Engenheiro mecatrônico
 Engenheiro de cibersegurança
 Eletricista de autos
 Engenheiro de soldagem
 Extrusor
+Engenheiro de software
 Estomatologista
 Engenheiro de telecomunicações
 Enfermeiro neonatologista
@@ -404,7 +405,6 @@ Ergonomista
 Engenheiro de Tráfego
 Especialista em sucesso do cliente
 Engenheiro de estruturas e fundações
-Engenheiro de dados
 Engenheiro de esg
 Especialista em SEM
 Encanador
@@ -444,12 +444,12 @@ Especialista em business intelligence
 Especialista em vendas técnicas
 Especialista em transformação digital
 Esteticista
+Engenheiro de dados
 Epidemiologista
 Engenheiro aeronáutico
 Engenheiro aeroespacial
 Escrevente
 Enfermeiro sanitarista
-Engenheiro de software
 Enfermeiro do trabalho
 Engenheiro biomédico
 Estatístico
@@ -486,12 +486,12 @@ Gestor de pessoas
 Gerente de TI
 Guarda civil
 Gestor empresarial
+Governanta
 Gerente de comunicação
 Gestor de inovação
 Gerente de contas estratégicas
 Geógrafo
 Gerente de hotel
-Gestor de tecnologia da informação
 Gestor tributário
 Gerente de auditoria
 Gerente de vendas
@@ -542,6 +542,7 @@ Gestor financeiro
 Gestor de qualidade
 Gerente administrativo
 Guia de turismo
+Gestor de tecnologia da informação
 Hipnoterapeuta
 Hematologista
 Historiador
@@ -580,6 +581,7 @@ Luthier
 Líder de tecnologia da informação
 Mordomo
 Motoboy
+Militar
 Mestre cervejeiro
 Major da Polícia Militar
 Mecânico de máquinas industriais
@@ -615,7 +617,6 @@ Magarefe
 Massoterapeuta
 Motorista de ônibus
 Mestre de Obras
-Militar
 Merendeira
 Meteorologista
 Manicure
@@ -651,8 +652,8 @@ Orientador social
 Operador de guindaste
 Ortopedista
 Oftalmologista
-Operador de caixa
 Operador de computador
+Operador de caixa
 Professor do ensino médio
 Psiquiatra
 Primeiro-sargento da Polícia Militar
@@ -786,11 +787,11 @@ Rigger
 Recepcionista
 Radiologista
 Silvicultor
+Supervisor
 Sonoplasta
 Segundo-sargento da Marinha
 Soldador
 Subtenente da Polícia Militar
-Supervisor
 Segundo-tenente da Polícia Militar
 Sexologista
 Sommelier
@@ -825,6 +826,7 @@ Subtenente do Exército
 Socorrista
 Serralheiro
 Taifeiro-mor da Marinha
+Tecnólogo em segurança pública
 Taifeiro primeira classe da Marinha
 Tecnólogo em radiologia
 Técnico em segurança do trabalho
@@ -890,7 +892,6 @@ Técnico em secretaria escolar
 Técnico em eletrônica
 Técnico em Transações Imobiliárias
 Tech recruiter
-Tecnólogo em segurança pública
 Tradutor
 Técnico em eletroeletrônica
 Técnico em veterinária
@@ -902,4 +903,3 @@ Tabelião
 Terceiro-sargento da Polícia Militar
 Técnico eletromecânico
 Torneiro mecânico
-Trader

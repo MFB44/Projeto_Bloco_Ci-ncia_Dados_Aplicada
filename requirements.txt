@@ -9,3 +9,8 @@ fastapi==0.115.2
 uvicorn==0.32.0
 transformers==4.46.3
 torch==2.5.1
+langchain==0.3.8
+langchain_community==0.3.8
+langchain-google-genai==2.0.5
+wikipedia==1.4.0
+google-cloud-bigquery==3.27.0

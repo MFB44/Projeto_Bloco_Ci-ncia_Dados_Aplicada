@@ -1,3 +1,4 @@
 /projeto_bloco
-/env
 **/__pycache__/
+.env
+app/data/core-shard-442902-h7-3fded6207039.json

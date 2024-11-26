@@ -3,12 +3,29 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup as bs
 
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain.agents import AgentExecutor, ConversationalAgent
+from langchain.memory import ConversationBufferMemory
+from langchain.chains import LLMChain
+from langchain_community.chat_message_histories import StreamlitChatMessageHistory
+from langchain_community.tools import WikipediaQueryRun
+from langchain_community.utilities import WikipediaAPIWrapper
+from dotenv import load_dotenv
+import os
+from google.cloud.bigquery.client import Client
+
+load_dotenv()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'app\data\core-shard-442902-h7-3fded6207039.json'
+bq_client = Client()
+
 st.set_page_config(page_title='FieldGuide', page_icon='📚', layout='centered', initial_sidebar_state='auto')
 
 st.sidebar.header("Bem-vindo ao FieldGuide!")
 st.sidebar.image("https://i.imgur.com/mlvt8or.png", use_column_width=True)
 st.sidebar.write("### Selecione a página desejada:")
-page = st.sidebar.selectbox("", ["Introdução (TP1)","Dados (TP2)", "BeautifulSoup (TP2)", "TP3 - Selenium, FastAPI, LLM"])
+page = st.sidebar.selectbox("", ["Introdução (TP1)","Dados (TP2)", "BeautifulSoup (TP2)", "TP3 - Selenium, FastAPI, LLM", "App"])
 
 @st.cache_data
 def read_csv(file):
@@ -154,3 +171,220 @@ if page == "TP3 - Selenium, FastAPI, LLM":
         st.image('https://i.imgur.com/Y5wA5nY.png')
     with col2:
         st.image('https://i.imgur.com/x0q8RvQ.png')
+
+api_wrapper = WikipediaAPIWrapper(top_k_results=1, doc_content_chars_max=100)
+tools = [WikipediaQueryRun(name="Wikipedia", description="Searches Wikipedia for information", api_wrapper=api_wrapper,)]
+    
+
+prefix = """
+        Você deve apenas trabalhar em Português Brasileiro. Você é a I.A do FieldGuide, um sistema criado para dar informações de carreira para os usuários.
+         Considere que você receberá um curso ou profissão de entrada e deverá retornar informações sobre ele.
+         No caso de um curso, informe quais profissões são possíveis a partir deste curso, e no caso contrário, quais cursos levam à tal profissão escolhida.
+         Caso hajam mais de uma opção de resposta, informe todos ao usuário.
+         Você tem acesso à ferramenta de pesquisa na Wikipedia, portanto, utilize-a para buscar informações sobre o que foi perguntado.
+         Se não souber a resposta, informe ao usuário que não encontrou informações sobre o que foi perguntado. Seja educado, prestativo e formal sempre.
+        """
+
+suffix = """
+Chat History:
+{chat_history}
+Latest Question: {input}
+{agent_scratchpad}
+"""
+prompt = ConversationalAgent.create_prompt(
+    tools,
+    prefix = prefix,
+    suffix = suffix,
+    input_variables = {"input", "chat_history", "agent_scratchpad"}
+)
+
+msg = StreamlitChatMessageHistory()
+if "memory" not in st.session_state:
+    st.session_state["memory"] = ConversationBufferMemory(
+        messages = msg,
+        memory_key = "chat_history",
+        return_messages=True
+    )
+memory = st.session_state["memory"]
+
+llm_chain = LLMChain(
+    llm = ChatGoogleGenerativeAI(temperature=0.5, model="gemini-1.5-pro", api_key=GEMINI_API_KEY),
+    prompt=prompt
+)
+
+agent = ConversationalAgent(
+    llm_chain=llm_chain,
+    memory=memory,
+    max_interactions=10,
+    tools = tools
+)
+
+agent_executor = AgentExecutor(agent=agent, memory=memory, tools=tools)
+
+if page == "App":
+    t1, t2 = st.tabs(["Introdução", "Chat Interativo"])
+    with t1:
+        st.header("Aqui começa o aplicativo FieldGuide em sua forma final!")
+        st.write("Este aplicativo foi feito para ajudar você a escolher sua carreira, mostrando cursos superiores e profissões que você pode seguir.")
+        st.write("Primeiramente escolha um curso ou profissão de interesse e depois converse com nossa IA interativa para saber mais sobre o assunto.")
+        all_courses = [
+            "Administração",
+            "Administração Pública",
+            "Agroecologia",
+            "Agronegócio",
+            "Agronomia",
+            "Análise de Sistemas",
+            "Antropologia",
+            "Arquitetura e Urbanismo",
+            "Arquivologia",
+            "Artes",
+            "Artes Cênicas",
+            "Astronomia",
+            "Biblioteconomia",
+            "Biologia",
+            "Biomedicina",
+            "Bioquímica",
+            "Canto",
+            "Cenografia",
+            "Ciência da Computação",
+            "Ciências Biológicas",
+            "Ciências Contábeis",
+            "Ciências Econômicas",
+            "Ciências Sociais",
+            "Cinema e Audiovisual",
+            "Composição e Regência",
+            "Computação",
+            "Comunicação e Marketing",
+            "Comunicação Social",
+            "Desenho Industrial",
+            "Design",
+            "Design de Ambientes",
+            "Design de Games",
+            "Design de Interiores",
+            "Design de Moda",
+            "Design de Produto",
+            "Design Digital",
+            "Design Gráfico",
+            "Direção",
+            "Direito",
+            "Educação Física",
+            "Enfermagem",
+            "Engenharia Acústica",
+            "Engenharia Aeroespacial",
+            "Engenharia Aeronáutica",
+            "Engenharia Agrícola",
+            "Engenharia Agroindustrial",
+            "Engenharia Agronômica",
+            "Engenharia Ambiental",
+            "Engenharia Automotiva",
+            "Engenharia Bioenergética",
+            "Engenharia Biomédica",
+            "Engenharia Bioquímica",
+            "Ofertas Bacharelado em Direito",
+            "Engenharia Biotecnológica",
+            "Engenharia Cartográfica",
+            "Engenharia Civil",
+            "Engenharia da Computação",
+            "Engenharia da Mobilidade",
+            "Engenharia de Agrimensura",
+            "Engenharia de Agronegócios",
+            "Engenharia de Alimentos",
+            "Engenharia de Aquicultura",
+            "Engenharia de Automação",
+            "Engenharia de Bioprocessos",
+            "Engenharia de Biossistemas",
+            "Engenharia de Biotecnologia",
+            "Engenharia de Energia",
+            "Engenharia de Gestão",
+            "Engenharia de Informação",
+            "Engenharia de Instrumentação, Automação e Robótica",
+            "Engenharia de Manufatura",
+            "Engenharia de Materiais",
+            "Engenharia de Minas",
+            "Engenharia de Pesca",
+            "Engenharia de Petróleo",
+            "Engenharia de Produção",
+            "Engenharia de Recursos Hídricos",
+            "Engenharia de Saúde e Segurança",
+            "Engenharia de Sistemas",
+            "Engenharia de Software",
+            "Engenharia de Telecomunicações",
+            "Engenharia de Transporte e Logística",
+            "Engenharia Elétrica",
+            "Engenharia Eletrônica",
+            "Engenharia em Sistemas Digitais",
+            "Engenharia Ferroviária e Metroviária",
+            "Engenharia Física",
+            "Engenharia Florestal",
+            "Engenharia Geológica",
+            "Engenharia Hídrica",
+            "Engenharia Industrial",
+            "Engenharia Mecânica",
+            "Engenharia Mecatrônica",
+            "Engenharia Metalúrgica",
+            "Engenharia Naval",
+            "Engenharia Química",
+            "Engenharia Têxtil",
+            "Estatística",
+            "Farmácia",
+            "Filosofia",
+            "Física",
+            "Fisioterapia",
+            "Fonoaudiologia",
+            "Geografia",
+            "Gestão Ambiental",
+            "Gestão da Informação",
+            "Gestão de Políticas Públicas",
+            "Gestão de Serviços de Saúde",
+            "Gestão do Agronegócio",
+            "Gestão Pública",
+            "História",
+            "Hotelaria",
+            "Jornalismo",
+            "Letras",
+            "Marketing",
+            "Matemática",
+            "Mecânica Industrial",
+            "Medicina",
+            "Medicina Veterinária",
+            "Moda",
+            "Música",
+            "Nutrição",
+            "Odontologia",
+            "Pedagogia",
+            "Políticas Públicas",
+            "Propaganda e Marketing",
+            "Psicologia",
+            "Publicidade e Propaganda",
+            "Química",
+            "Rádio, TV e Internet",
+            "Relações Internacionais",
+            "Relações Públicas",
+            "Secretariado Executivo",
+            "Serviço Social",
+            "Sistemas de Informação",
+            "Tecnologias Digitais",
+            "Teologia",
+            "Terapia Ocupacional",
+            "Tradutor e Intérprete",
+            "Turismo",
+            "Zootecnia"
+        ]
+        selected_course = st.selectbox("Veja todos os cursos", all_courses)
+        profs_at = st.session_state['professions']
+        alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+        sel_let = st.selectbox("Profissões por letra", alphabet)
+        if sel_let:
+            st.markdown(
+                f"<div style='height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;'>{''.join([f'<p>{prof}</p>' for prof in profs_at if prof[0] == sel_let])}</div>",
+                unsafe_allow_html=True
+            )
+
+    with t2:
+        st.header("Converse com nossa IA Interativa!")
+        query = st.text_input("Não se esqueça de informá-la de seu curso ou profissão de interesse!", placeholder="Digite aqui...")
+        if query:
+            with st.spinner("Aguarde..."):
+                result = agent_executor.run(query)
+                st.info(result, icon="🤖")
+        
