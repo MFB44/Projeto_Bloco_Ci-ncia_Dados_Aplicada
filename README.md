@@ -1,12 +1,9 @@
-# Segunda etapa do Projeto de Bloco de Ciência de Dados Aplicada
+# Projeto de Bloco - Ciência de Dados 2024 - Instituto INFNET
 
-Aplicação Demo Streamlit sobre o Projeto FieldGuide.
-Imagens, Links de Inspiração, Descrições básicas e uma tabela de exemplo.
-Pastas criadas para organização como ditado pelo professor.
-Ambiente virtual.
+## Instruções de Uso:
 
-Git
-Interface Dinâmica
-Beautiful Soup, WebScrapping
-Cache e Estado de Sessão
-Upload e Download de Arquivos
+### Inserir chaves de API em um arquivo .env e um arquivo em JSON com as credenciais Google Cloud em app/data/
+#### Chaves necessárias:
+- API do Google para Gemini
+- Serper API
+- Serp API

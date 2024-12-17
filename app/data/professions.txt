@@ -25,13 +25,13 @@ Aspirante do exército
 Analista de compliance
 Analista de PCM
 Analista fundiário
+Assistente de vendas
 Agente de proteção e defesa civil
 Analista de produtos
 Analista fiscal
 Agente de crédito
 Auxiliar de departamento pessoal
 Analista de kyc
-Assistente de vendas
 Auxiliar operacional
 Atuário
 Apicultor
@@ -39,6 +39,7 @@ Acupunturista
 Analista de recursos humanos
 Analista de IoT
 Angiologista
+Astronauta
 Agente de relacionamentos
 Auditor fiscal do trabalho
 Analista de sinistro
@@ -46,14 +47,17 @@ Açougueiro
 Analista de segurança da informação
 Auxiliar de veterinário
 Auxiliar de laboratório
+Ajudante de motorista
 Advogado empresarial
 Analista de negócios
 Auxiliar de manutenção
+Analista de licitação
 Analista de help desk
 Analista de transporte
 Auditor fiscal
 Auxiliar de embalagem
 Alfaiate
+Administrador
 Auxiliar de limpeza
 Atendente de padaria e confeitaria
 Auxiliar de produção
@@ -67,7 +71,6 @@ Analista de comunicação interna
 Analista de departamento pessoal
 Agente de pátio
 Agente da promoção ambiental
-Administrador
 Analista de SEO
 Analista de inbound marketing
 Atendente
@@ -120,10 +123,8 @@ Analista de planejamento
 Advogado previdenciário
 Analista de payroll
 Analista de inteligência artificial
-Astronauta
 Analista de privacidade
 Advogado de contencioso cível
-Ajudante de motorista
 Analista de recrutamento e seleção
 Assistente financeiro
 Analista de marketing digital
@@ -145,8 +146,8 @@ Analista de tecnologia da informação
 Analista de infraestrutura
 Analista de PCP
 Analista jurídico
-Armazenista
 Analista de dados
+Armazenista
 Arquiteto de soluções
 Agente funerário
 Agente penitenciário
@@ -157,7 +158,6 @@ Assistente comercial
 Auxiliar de faturamento
 Analista de desempenho de futebol
 Arqueólogo
-Analista de licitação
 Auxiliar de Loja
 Agente de Combate às Endemias
 Auxiliar de enfermagem
@@ -192,7 +192,6 @@ Biomédico
 Bancário
 Control desk
 Cabo do exército
-Cientista
 Copista
 Chefe de cozinha
 Consultor empresarial
@@ -206,16 +205,18 @@ Cirurgião plástico
 Coordenador de eventos
 Controller
 Caldeireiro
+Cientista de dados
 Chofer
 CEO
 Cineasta
+Cientista
 Cabeleireiro
 Customer success
 Cirurgião geral
 Comprador
+Controlador de acesso
 Correspondente de guerra
 Consultor financeiro
-Controlador de acesso
 Corretor de seguros
 Carpinteiro
 Cozinheiro
@@ -266,7 +267,6 @@ Cinegrafista
 Cuidador de idosos
 Calceteiro
 Contabilista
-Cientista de dados
 Capitão da polícia militar
 Corretor de imóveis
 Carteiro
@@ -284,6 +284,7 @@ Desenvolvedor full-stack
 Deputado federal
 Diretor de arte
 Diretor de futebol
+Desenvolvedor de software
 Designer de joias
 Diretor comercial
 Diretor de crédito
@@ -300,6 +301,7 @@ Diretor de riscos de mercado
 Diretor de receita
 Dublê
 Designer de iluminação
+Diretor de felicidade
 Diretor de pesquisa e desenvolvimento
 Diretor de operações
 Despachante aduaneiro
@@ -321,7 +323,6 @@ Diretor de segurança cibernética
 DJ
 Desenhista industrial
 Dentista
-Desenvolvedor de software
 Dermatologista
 Designer digital
 Desenvolvedor RPA
@@ -348,7 +349,6 @@ Engenheiro de cibersegurança
 Eletricista de autos
 Engenheiro de soldagem
 Extrusor
-Engenheiro de software
 Estomatologista
 Engenheiro de telecomunicações
 Enfermeiro neonatologista
@@ -357,6 +357,7 @@ Engenheiro de custos
 Engenheiro têxtil
 Engenheiro eletrônico
 Executivo de vendas
+Engenheiro biomédico
 Empresário
 Engenheiro de materiais
 Eletricista
@@ -369,6 +370,7 @@ Engenheiro automotivo
 Engenheiro acústico
 Estoquista
 Engenheiro de mobilidade
+Enfermeiro
 Engenheiro ferroviário
 Encadernador
 Engenheiro da computação
@@ -395,12 +397,14 @@ Engenheiro de produção
 Engenheiro de segurança do trabalho
 Engenheiro de confiabilidade
 Embalador
+Esteticista
 Empreendedor
 Engenheiro ambiental
 Estomaterapeuta
 Engenheiro de Incêndio
 Engenheiro eletrotécnico
 Equinocultor
+Engenheiro de software
 Ergonomista
 Engenheiro de Tráfego
 Especialista em sucesso do cliente
@@ -427,7 +431,6 @@ Engenheiro de pesca
 Engenheiro biomecânico
 Engenheiro industrial
 Engenheiro de controle e automação
-Enfermeiro
 Engenheiro metalúrgico
 Engenheiro naval
 Engenheiro clínico
@@ -443,7 +446,6 @@ Engenheiro agrícola
 Especialista em business intelligence
 Especialista em vendas técnicas
 Especialista em transformação digital
-Esteticista
 Engenheiro de dados
 Epidemiologista
 Engenheiro aeronáutico
@@ -451,7 +453,6 @@ Engenheiro aeroespacial
 Escrevente
 Enfermeiro sanitarista
 Enfermeiro do trabalho
-Engenheiro biomédico
 Estatístico
 Engenheiro trainee
 Engenheiro florestal
@@ -460,22 +461,23 @@ Engenheiro agrônomo
 Educador social
 Engenheiro mecânico
 Engenheiro civil
+Fisiologista
 Fiscal de loja
+Fuzileiro naval
+Fiscal de prevenção de perdas
 Funileiro
 Fisiatra
-Fotógrafo
 Faxineiro
 Fisioterapeuta
+Fotógrafo
 Faturista
 Ferramenteiro
 Figurinista
 Filósofo
 Florista
-Fisiologista
 Fisioterapeuta do trabalho
 Ferreiro
 Frentista
-Fuzileiro naval
 Farmacêutico
 Fonoaudiólogo
 Gestor Portuário
@@ -553,6 +555,7 @@ Hostess
 Ilustrador
 Instrutor de autoescola
 Inspetor de qualidade
+Investigador da polícia civil
 Inspetor de equipamentos
 Investigador forense
 Instrumentista
@@ -563,7 +566,6 @@ Inspetor de soldagem
 Infectologista
 Intérprete
 Investidor Day Trader
-Investigador da polícia civil
 Intérprete de libras
 Inspetor de alunos
 Juiz
@@ -575,21 +577,26 @@ Juiz de paz
 Jornalista
 Jovem aprendiz
 Jogador de futebol
+Lactarista
 Locutor
 Laminador
 Luthier
 Líder de tecnologia da informação
 Mordomo
 Motoboy
-Militar
 Mestre cervejeiro
+Massoterapeuta
 Major da Polícia Militar
 Mecânico de máquinas industriais
 Mecânico
 Mesário
+Modelista
 Marmorista
 Marinheiro
+Moleiro
+Montador
 Maquiadora
+Militar
 Médico geneticista
 Marceneiro
 Musicoterapeuta
@@ -608,13 +615,10 @@ Maître
 Mecânico de carro
 Médico
 Mecânico de manutenção
-Moleiro
-Montador
 Maestro
 Motorista de aplicativo
 Motorista de caminhão
 Magarefe
-Massoterapeuta
 Motorista de ônibus
 Mestre de Obras
 Merendeira
@@ -635,6 +639,7 @@ Office boy
 Obstetra
 Ombudsman
 Ortodontista
+Operador de computador
 Odontopediatra
 Operador de máquinas
 Optometrista
@@ -652,7 +657,6 @@ Orientador social
 Operador de guindaste
 Ortopedista
 Oftalmologista
-Operador de computador
 Operador de caixa
 Professor do ensino médio
 Psiquiatra
@@ -673,13 +677,14 @@ Perito contábil
 Psicólogo organizacional
 Presidente da República
 Pizzaiolo
-Profissional de educação física
 Produtor de conteúdo
 Perfusionista
 Pedagogo social
+Psicólogo
 Produtor de vídeo
 Programador multimídia
 Professor de educação física
+Profissional de educação física
 Psicomotricista
 Publicitário
 Paisagista
@@ -732,7 +737,6 @@ Profissional de gestão financeira
 Professor de matemática
 Profissional de matemática
 Perito criminal
-Psicólogo
 Profissional de comércio exterior
 Primeiro-tenente da Polícia Militar
 Primeiro-sargento da Marinha
@@ -790,7 +794,6 @@ Silvicultor
 Supervisor
 Sonoplasta
 Segundo-sargento da Marinha
-Soldador
 Subtenente da Polícia Militar
 Segundo-tenente da Polícia Militar
 Sexologista
@@ -799,6 +802,7 @@ Supervisor de produção
 Secretária
 Supervisor administrativo
 Supervisor de operações logísticas
+Soldador
 Supervisor de vendas
 Sociólogo
 Suplente de vereador
@@ -899,7 +903,3 @@ Topógrafo
 Taifeiro do exército
 Telefonista
 Técnico em design de interiores
-Tabelião
-Terceiro-sargento da Polícia Militar
-Técnico eletromecânico
-Torneiro mecânico

@@ -4,28 +4,36 @@ import requests
 from bs4 import BeautifulSoup as bs
 
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.agents import AgentExecutor, ConversationalAgent
+from langchain.agents import AgentExecutor, ConversationalAgent, Tool
 from langchain.memory import ConversationBufferMemory
 from langchain.chains import LLMChain
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
-from langchain_community.tools import WikipediaQueryRun
-from langchain_community.utilities import WikipediaAPIWrapper
+from langchain_community.utilities import GoogleSerperAPIWrapper
+from langchain_community.utilities import SerpAPIWrapper
+from langchain_community.callbacks.streamlit import (StreamlitCallbackHandler)
+from langchain.memory import ConversationBufferMemory
+from langchain_core.prompts import MessagesPlaceholder
 from dotenv import load_dotenv
 import os
 from google.cloud.bigquery.client import Client
 
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")
+SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY")
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r'app\data\core-shard-442902-h7-3fded6207039.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = (r'app\data\core-shard-442902-h7-3fded6207039.json')
 bq_client = Client()
 
 st.set_page_config(page_title='FieldGuide', page_icon='📚', layout='centered', initial_sidebar_state='auto')
 
 st.sidebar.header("Bem-vindo ao FieldGuide!")
-st.sidebar.image("https://i.imgur.com/mlvt8or.png", use_column_width=True)
+st.sidebar.image("https://i.imgur.com/mlvt8or.png", width=200)
 st.sidebar.write("### Selecione a página desejada:")
-page = st.sidebar.selectbox("", ["Introdução (TP1)","Dados (TP2)", "BeautifulSoup (TP2)", "TP3 - Selenium, FastAPI, LLM", "App"])
+page = st.sidebar.selectbox("", ["Introdução (TP1)","Dados (TP2)", "BeautifulSoup (TP2)", "TP3 - Selenium, FastAPI, LLM", "App"], index=4)
+st.sidebar.write("Tudo que você precisa para utilizar o FieldGuide se encontra na aba 'App'")
+st.sidebar.image("https://imgur.com/HHANHqz.png", width=200)
+st.sidebar.write("#### Instituto INFNET - Projeto de Bloco Ciência de Dados Aplicada")
 
 @st.cache_data
 def read_csv(file):
@@ -172,8 +180,31 @@ if page == "TP3 - Selenium, FastAPI, LLM":
     with col2:
         st.image('https://i.imgur.com/x0q8RvQ.png')
 
-api_wrapper = WikipediaAPIWrapper(top_k_results=1, doc_content_chars_max=100)
-tools = [WikipediaQueryRun(name="Wikipedia", description="Searches Wikipedia for information", api_wrapper=api_wrapper,)]
+def init_memory():
+        return ConversationBufferMemory(
+        memory_key="chat_history", return_messages=True, output_key="answer"
+    )
+
+
+MEMORY = init_memory()
+CHAT_HISTORY = MessagesPlaceholder(variable_name="chat_history")
+
+search_serper = GoogleSerperAPIWrapper(serper_api_key=SERPER_API_KEY)
+search_serp = SerpAPIWrapper(serpapi_api_key=SERPAPI_API_KEY)
+
+
+tools = [
+    Tool(
+        name="search_serper",
+        func=search_serper.run,
+        description="Útil para conseguir informações diretamente da web.",
+    ),
+    Tool(
+        name="search_serp",
+        func=search_serp.run,
+        description="Search the web for information."
+    ),
+]
     
 
 prefix = """
@@ -181,8 +212,11 @@ prefix = """
          Considere que você receberá um curso ou profissão de entrada e deverá retornar informações sobre ele.
          No caso de um curso, informe quais profissões são possíveis a partir deste curso, e no caso contrário, quais cursos levam à tal profissão escolhida.
          Caso hajam mais de uma opção de resposta, informe todos ao usuário.
-         Você tem acesso à ferramenta de pesquisa na Wikipedia, portanto, utilize-a para buscar informações sobre o que foi perguntado.
+         Informe uma lista com as possíveis profissões que são possíveis a partir do curso escolhido, ou uma lista com os cursos que levam à profissão escolhida com deatlhes em cada ponto citado. E após esta lista, pelo menos um parágrafo indicando informações e detalhes extras sobre o curso ou profissão solicitado.
+         Você tem acesso à duas ferramentas de pesquisa na Web, portanto, sempre utilize ambas para buscar informações e detalhes extras sobre o curso ou a profissão indicada pelo usuário.
          Se não souber a resposta, informe ao usuário que não encontrou informações sobre o que foi perguntado. Seja educado, prestativo e formal sempre.
+         Responda apenas em parágrafos objetivos, mas detalhados.
+         Caso o usuário questione sobre algo que não seja um curso ou profissão, informe que não é possível responder e peça para que ele tente novamente.
         """
 
 suffix = """
@@ -219,14 +253,25 @@ agent = ConversationalAgent(
     tools = tools
 )
 
-agent_executor = AgentExecutor(agent=agent, memory=memory, tools=tools)
+agent_executor = AgentExecutor.from_agent_and_tools(agent=agent, memory=memory, tools=tools, handle_parsing_errors=True)
 
 if page == "App":
     t1, t2 = st.tabs(["Introdução", "Chat Interativo"])
     with t1:
-        st.header("Aqui começa o aplicativo FieldGuide em sua forma final!")
+        st.header("Bem-vindo ao FieldGuide, o Guia de Campo para sua Carreira!")
+        st.image("https://i.imgur.com/9SCBoG5.png", width=650)
+        st.header("Sobre o FieldGuide")
         st.write("Este aplicativo foi feito para ajudar você a escolher sua carreira, mostrando cursos superiores e profissões que você pode seguir.")
+        st.write("Aqui você pode encontrar informações sobre cursos superiores e profissões, além de conversar com nossa IA interativa para tirar dúvidas.")
+        st.write("Este é um Projeto de Bloco da disciplina de Ciência de Dados Aplicada, do curso de Ciência de Dados do Instituto INFNET.")
+        st.write("A proposta do projeto é ser uma solução tecnológica alinhada a um ODS da Agenda 2030:")
+        st.image("https://imgur.com/kGosUuW.png", width=650)
+        st.write("O FieldGuide está alinhado ao ODS 4 - Educação de Qualidade, pois visa ajudar jovens a escolherem suas carreiras de forma mais informada e consciente.")
+        st.write("Qualquer um pode usar o FieldGuide, mas a ideia surgiu de minha própria experiência, que durante o Ensino Médio, não sabia o que queria fazer e fiquei dias procurando informações sobre cursos superiores e profissões.")
+        st.write("Portanto o FieldGuide é uma ferramenta para ajudar jovens que estão passando por essa fase de escolha de carreira.")
+        st.header("Como usar o FieldGuide")
         st.write("Primeiramente escolha um curso ou profissão de interesse e depois converse com nossa IA interativa para saber mais sobre o assunto.")
+        st.write("A seguir você encontra uma lista de cursos superiores e profissões. Use-as para ter ideias do que perguntar no nosso Chat.")
         all_courses = [
             "Administração",
             "Administração Pública",
@@ -370,21 +415,49 @@ if page == "App":
             "Turismo",
             "Zootecnia"
         ]
-        selected_course = st.selectbox("Veja todos os cursos", all_courses)
-        profs_at = st.session_state['professions']
-        alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
-        sel_let = st.selectbox("Profissões por letra", alphabet)
-        if sel_let:
-            st.markdown(
-                f"<div style='height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;'>{''.join([f'<p>{prof}</p>' for prof in profs_at if prof[0] == sel_let])}</div>",
-                unsafe_allow_html=True
-            )
+        with st.container(border=True):
+            selected_course = st.selectbox("Veja todos os cursos:", all_courses)
+            HEADER = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3',
+            }
+            resp = requests.get("https://querobolsa.com.br/carreiras-e-profissoes/todas", headers=HEADER, timeout=30)
+            soup = bs(resp.content, 'html.parser')
+            profissoes = soup.find_all('a', class_='z-link')
+            profs = []
+            for profissao in profissoes:
+                profs.append(profissao.text)
 
+            profs_at = profs[50:955]
+            profs_at = [prof.strip().replace('\n', '') for prof in profs_at]
+            for element in profs_at:
+                if element == '':
+                    profs_at.remove(element)
+            alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+            sel_let = st.selectbox("Escolha uma letra e veja as profissões:", alphabet)
+            if sel_let:
+                st.markdown(
+                    f"<div style='height: 300px; overflow-y: scroll; border: 1px solid #ccc; padding: 10px;'>{''.join([f'<p>{prof}</p>' for prof in profs_at if prof[0] == sel_let])}</div>",
+                    unsafe_allow_html=True
+                )
+            st.write("")
+        st.markdown("### Agora é só visitar a aba 'Chat Interativo' e conversar com nossa IA para saber mais sobre o curso ou profissão escolhida. Aproveite!")
     with t2:
         st.header("Converse com nossa IA Interativa!")
-        query = st.text_input("Não se esqueça de informá-la de seu curso ou profissão de interesse!", placeholder="Digite aqui...")
-        if query:
-            with st.spinner("Aguarde..."):
-                result = agent_executor.run(query)
-                st.info(result, icon="🤖")
-        
+
+        avatars = {
+            "human": "user",
+            "ai": "assistant"
+        }
+        for msg in MEMORY.chat_memory.messages:
+            st.chat_message(avatars[msg.type]).write(msg.content)
+            
+        if prompt := st.chat_input(placeholder="No que posso ajudar?"):
+            st.chat_message("user").write(prompt)
+            with st.chat_message("assistant"):
+                st_callback = StreamlitCallbackHandler(st.container())
+                response = agent_executor.invoke(
+                    {"input": prompt} ,
+                    {"callbacks": [st_callback]}
+                )
+                st.write(response["output"])
+                
